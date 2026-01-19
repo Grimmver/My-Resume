@@ -63,3 +63,18 @@ li p, h4 {
     font-size: small;
     color: black;
 }
+@media (max-width: 700px) {
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+        margin-left: 20px;
+    }
+    .info {
+        margin-right: 20px;
+        padding: 0 10px;
+    }
+    .Sections-list>li, .underline, li p, h4 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
